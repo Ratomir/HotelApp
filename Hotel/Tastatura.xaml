@@ -1,0 +1,63 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="Hotel.Tastatura"
+	x:Name="Window"
+	Title="Tastatura"
+	Width="817.5" Height="225" ResizeMode="NoResize" Icon="tastatura.png">
+
+    <Grid x:Name="LayoutRoot">
+        <Button x:Name="btnQ" Content="Q" Margin="83,10,0,0" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Height="36.46" VerticalAlignment="Top" HorizontalAlignment="Left" Width="45" Cursor="Hand" Click="btnQ_Click"/>
+        <Button x:Name="btnW" Content="W" Margin="133,10,0,0" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Height="36.46" VerticalAlignment="Top" HorizontalAlignment="Left" Width="45" Cursor="Hand" Click="btnW_Click"/>
+        <Button x:Name="btnE" Content="E" HorizontalAlignment="Left" Margin="183,10,0,0" VerticalAlignment="Top" Width="45" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Cursor="Hand" Click="btnE_Click"/>
+        <Button x:Name="btnR" Content="R" HorizontalAlignment="Left" Margin="233,10,0,0" VerticalAlignment="Top" Width="45" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Cursor="Hand" Click="btnR_Click"/>
+        <Button x:Name="btnT" Content="T" HorizontalAlignment="Left" Margin="282,10,0,0" VerticalAlignment="Top" Width="45" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Cursor="Hand" Click="btnT_Click"/>
+        <Button x:Name="btnZ" Content="Z" HorizontalAlignment="Left" Margin="332,10,0,0" VerticalAlignment="Top" Width="45" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Cursor="Hand" Click="btnZ_Click"/>
+        <Button x:Name="btnU" Content="U" HorizontalAlignment="Left" Margin="382,10,0,0" VerticalAlignment="Top" Width="45" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Cursor="Hand" Click="btnU_Click"/>
+        <Button x:Name="btnI" Content="I" HorizontalAlignment="Left" Margin="432,10,0,0" VerticalAlignment="Top" Width="45" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Cursor="Hand" Click="btnI_Click"/>
+        <Button x:Name="btnY" Content="Y" HorizontalAlignment="Left" Margin="183,92.92,0,0" VerticalAlignment="Top" Width="45" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Cursor="Hand" Click="btnY_Click"/>
+        <Button x:Name="btnC" Content="C" HorizontalAlignment="Left" Margin="283,92.92,0,0" VerticalAlignment="Top" Width="45" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Cursor="Hand" Click="btnC_Click"/>
+        <Button x:Name="btnV" Content="V" HorizontalAlignment="Left" Margin="333,92.92,0,0" VerticalAlignment="Top" Width="45" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Cursor="Hand" Click="btnV_Click"/>
+        <Button x:Name="btnB" Content="B" HorizontalAlignment="Left" Margin="383,92.92,0,0" VerticalAlignment="Top" Width="45" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Cursor="Hand" Click="btnB_Click"/>
+        <Button x:Name="btnĐ" Content="Đ" HorizontalAlignment="Left" Margin="632,10,0,0" VerticalAlignment="Top" Width="45" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Cursor="Hand" Click="btnĐ_Click"/>
+        <Button x:Name="btnŠ" Content="Š" HorizontalAlignment="Left" Margin="582,10,0,0" VerticalAlignment="Top" Width="45" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Cursor="Hand" Click="btnŠ_Click"/>
+        <Button x:Name="btnP" Content="P" HorizontalAlignment="Left" Margin="532,10,0,0" VerticalAlignment="Top" Width="45" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Cursor="Hand" Click="btnP_Click"/>
+        <Button x:Name="btnO" Content="O" HorizontalAlignment="Left" Margin="482,10,0,0" VerticalAlignment="Top" Width="45" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Cursor="Hand" Click="btnO_Click"/>
+        <Button x:Name="btnA" Content="A" HorizontalAlignment="Left" Margin="133,51.46,0,0" VerticalAlignment="Top" Width="45" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Cursor="Hand" Click="btnA_Click"/>
+        <Button x:Name="btnS" Content="S" HorizontalAlignment="Left" Margin="183,51.46,0,0" VerticalAlignment="Top" Width="45" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Cursor="Hand" Click="btnS_Click"/>
+        <Button x:Name="btnD" Content="D" HorizontalAlignment="Left" Margin="233,51.46,0,0" VerticalAlignment="Top" Width="45" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Cursor="Hand" Click="btnD_Click"/>
+        <Button x:Name="btnF" Content="F" HorizontalAlignment="Left" Margin="283,51.46,0,0" VerticalAlignment="Top" Width="45" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Cursor="Hand" Click="btnF_Click"/>
+        <Button x:Name="btnG" Content="G" HorizontalAlignment="Left" Margin="332,51.46,0,0" VerticalAlignment="Top" Width="45" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Cursor="Hand" Click="btnG_Click"/>
+        <Button x:Name="btnH" Content="H" HorizontalAlignment="Left" Margin="383,51,0,0" VerticalAlignment="Top" Width="45" Height="37" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Cursor="Hand" Click="btnH_Click"/>
+        <Button x:Name="btnJ" Content="J" HorizontalAlignment="Left" Margin="432,51.46,0,0" VerticalAlignment="Top" Width="45" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Cursor="Hand" Click="btnJ_Click"/>
+        <Button x:Name="btnK" Content="K" HorizontalAlignment="Left" Margin="482,51.46,0,0" VerticalAlignment="Top" Width="45" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Cursor="Hand" Click="btnK_Click"/>
+        <Button x:Name="btnŽ" Content="Ž" HorizontalAlignment="Left" Margin="682,51.46,0,0" VerticalAlignment="Top" Width="45" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Cursor="Hand" Click="btnŽ_Click"/>
+        <Button x:Name="btnĆ" Content="Ć" HorizontalAlignment="Left" Margin="632,51.46,0,0" VerticalAlignment="Top" Width="45" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Cursor="Hand" Click="btnĆ_Click"/>
+        <Button x:Name="btnČ" Content="Č" HorizontalAlignment="Left" Margin="582,51.46,0,0" VerticalAlignment="Top" Width="45" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Cursor="Hand" Click="btnČ_Click"/>
+        <Button x:Name="btnL" Content="L" HorizontalAlignment="Left" Margin="532,51.46,0,0" VerticalAlignment="Top" Width="45" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Cursor="Hand" Click="btnL_Click"/>
+        <Button x:Name="btnCapsLock" Content="Caps lock" HorizontalAlignment="Left" Margin="10,51.46,0,0" VerticalAlignment="Top" Width="118" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Cursor="Hand" Click="btnCapsLock_Click"/>
+        <Button x:Name="btnN" Content="N" HorizontalAlignment="Left" Margin="432,92.92,0,0" VerticalAlignment="Top" Width="45" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Cursor="Hand" Click="btnN_Click"/>
+        <Button x:Name="btnM" Content="M" HorizontalAlignment="Left" Margin="482,92.92,0,0" VerticalAlignment="Top" Width="45" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Cursor="Hand" Click="btnM_Click"/>
+        <Button x:Name="btnX" Content="X" HorizontalAlignment="Left" Margin="233,92.92,0,0" VerticalAlignment="Top" Width="45" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" Cursor="Hand" Click="btnX_Click"/>
+        <Button x:Name="btnShift" Content="↑" HorizontalAlignment="Left" Margin="133,92.92,0,0" VerticalAlignment="Top" Width="45" Height="36.46" FontSize="26.667" FontWeight="Bold" Background="Black" Foreground="#FFF9F9F9" ToolTip="SHIFT" Padding="-1" Cursor="Hand" Click="btnShift_Click"/>
+        <Button x:Name="btnPotvrdi" Content="Potvrdi" HorizontalAlignment="Left" Margin="10,92.92,0,0" VerticalAlignment="Top" Width="118" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="Lime" Foreground="#FF333333" BorderBrush="Black" BorderThickness="2" Cursor="Hand" Click="btnPotvrdi_Click"/>
+        <Button x:Name="btnOdustani" Content="Odustani" HorizontalAlignment="Left" Margin="532,92.92,0,0" VerticalAlignment="Top" Width="118" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="Red" Foreground="#FF333333" BorderThickness="2" BorderBrush="Black" Cursor="Hand" Click="btnOdustani_Click"/>
+        <Button x:Name="btnPonisti" Content="Poništi" HorizontalAlignment="Left" Margin="682,10,0,0" VerticalAlignment="Top" Width="118" Height="36.46" FontSize="21.333" FontWeight="Bold" Background="#FFF0F0F0" Foreground="#FF333333" BorderBrush="Black" BorderThickness="2" Cursor="Hand" Click="btnPonisti_Click"/>
+        <Button x:Name="btnUndo" Content="" HorizontalAlignment="Left" Margin="682,93,0,0" VerticalAlignment="Top" Width="45" Height="36" FontSize="21.333" FontWeight="Bold" Foreground="#FFF9F9F9" BorderBrush="Black" BorderThickness="2" Cursor="Hand" Click="btnUndo_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Undo.png"/>
+            </Button.Background>
+        </Button>
+        <StackPanel HorizontalAlignment="Left" Height="41" Margin="10,144,0,0" VerticalAlignment="Top" Width="244">
+            <RadioButton x:Name="rbIme" Content="Ime" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <RadioButton x:Name="rbPrezime" Content="Prezime" Margin="0,6,0,0 " HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        </StackPanel>
+        <TextBlock HorizontalAlignment="Left" Margin="283,141.733,0,0" TextWrapping="Wrap" Text="Ime:" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Margin="282,163.013,0,0" TextWrapping="Wrap" Text="Prezime:" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock x:Name="tbIme" HorizontalAlignment="Left" Margin="361,141.733,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock x:Name="tbPrezime" HorizontalAlignment="Left" Margin="361,163.72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16"/>
+        <Ellipse x:Name="elCapsLock" Fill="Black" HorizontalAlignment="Left" Height="11.377" Margin="113.598,53.21,0,0" Stroke="Black" VerticalAlignment="Top" Width="12.152"/>
+        <Ellipse x:Name="elShift" HorizontalAlignment="Left" Height="11.377" Margin="164.598,93.96,0,0" Stroke="Black" VerticalAlignment="Top" Width="12.152" Fill="Black"/>
+
+    </Grid>
+</Window>

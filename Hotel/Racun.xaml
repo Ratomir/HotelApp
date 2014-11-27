@@ -1,0 +1,40 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="Hotel.Racun"
+	x:Name="Window"
+	Title="Racun"
+	Width="341.697" Height="381" MinWidth="305" MinHeight="381" Loaded="Window_Loaded">
+
+    <Grid x:Name="LayoutRoot">
+        <Grid>
+            <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Konekcija:" VerticalAlignment="Top" FontSize="16" Foreground="Black"/>
+            <TextBlock x:Name="tbKonekcija" HorizontalAlignment="Left" Margin="147.333,10,0,0" TextWrapping="Wrap" Text="Konekcija" VerticalAlignment="Top" FontSize="16" Foreground="Red" FontWeight="Bold"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,40.666,0,0" TextWrapping="Wrap" Text="Žiro račun hotela:" VerticalAlignment="Top" FontSize="16" Foreground="Black"/>
+            <TextBlock HorizontalAlignment="Left" Margin="148.333,40.666,0,0" TextWrapping="Wrap" Text="562-099-0889-564" VerticalAlignment="Top" FontStyle="Italic" Foreground="Red" FontWeight="Bold" FontSize="16"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,74.332,0,0" TextWrapping="Wrap" Text="Šifra:" VerticalAlignment="Top" FontSize="16" Foreground="Black"/>
+            <PasswordBox x:Name="pbSifra" HorizontalAlignment="Left" Margin="148.333,72.332,0,0" VerticalAlignment="Top" Width="135.667" ToolTip="Šifra" FontSize="16"/>
+            <Border CornerRadius="7" BorderBrush="Aqua" BorderThickness="2,2,2,2" Margin="73,0,55,11.647" Height="45.333" VerticalAlignment="Bottom">
+                <UniformGrid Rows="1" Columns="2">
+                    <Button x:Name="btnPotvrdi" Content="Potvrdi" Margin="5,5,1.5,4.54" FontSize="15" FontWeight="Bold" Background="Lime" Foreground="Black" BorderBrush="Black" BorderThickness="2" Cursor="Hand" Click="btnPotvrdi_Click"/>
+                    <Button x:Name="btnOdustani" Content="Odustani" Margin="0,5,6,0" FontSize="14" FontWeight="Bold" Background="Red" Foreground="Black" BorderThickness="2" BorderBrush="Black" Cursor="Hand" Height="31" VerticalAlignment="Top" Click="btnOdustani_Click"/>
+                </UniformGrid>
+            </Border>
+
+            <UniformGrid Margin="73,100.612,50.667,61.98" Columns="3" Rows="4" >
+                <Button x:Name="btn7" Content="7" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="White" Cursor="Hand" Margin="0,0,5,13.97" Click="btn7_Click"/>
+                <Button x:Name="btn8" Content="8" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="White" Cursor="Hand" Margin="0,0,5,13.97" Click="btn8_Click"/>
+                <Button x:Name="btn9" Content="9" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="White" Cursor="Hand" Margin="0,0,5,14" Click="btn9_Click"/>
+                <Button x:Name="btn4" Content="4" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="White" Cursor="Hand" Margin="0,0,5,13.971" Click="btn4_Click"/>
+                <Button x:Name="btn5" Content="5" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="White" Cursor="Hand" Margin="0,0,5,13.971" Click="btn5_Click"/>
+                <Button x:Name="btn6" Content="6" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="White" Cursor="Hand" Margin="0,0,5,13.971" Click="btn6_Click"/>
+                <Button x:Name="btn1" Content="1" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="White" Cursor="Hand" Margin="0,0,5,13.971" Click="btn1_Click"/>
+                <Button x:Name="btn2" Content="2" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="White" Cursor="Hand" Margin="0,0,5,13.971" Click="btn2_Click"/>
+                <Button x:Name="btn3" Content="3" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="White" Cursor="Hand" Margin="0,0,5,13.971" Click="btn3_Click"/>
+                <Button x:Name="btn0" Content="0" FontSize="21.333" FontWeight="Bold" Background="Black" Foreground="White" Cursor="Hand" Margin="0,0,5,13.97" Click="btn0_Click"/>
+                <Button x:Name="btnC" FontSize="21.333" FontWeight="Bold" Foreground="#FFF9F9F9" BorderBrush="Black" BorderThickness="2" Cursor="Hand" Margin="0,0,5,14" Background="Black" Content="C" Click="btnC_Click"/>
+                <Button x:Name="btnUndo" Content="←" FontSize="35" Padding="0,-12,0,0" FontWeight="Bold" Foreground="#FFF9F9F9" BorderBrush="Black" BorderThickness="2" Cursor="Hand" Margin="0,0,5,14" Background="Black" Click="btnUndo_Click"/>
+            </UniformGrid>
+        </Grid>
+    </Grid>
+</Window>
