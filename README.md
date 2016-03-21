@@ -1,7 +1,4 @@
 HotelApp
 ========
 
-Hotel App is C# Project working in WPF.
-
-Application working localy. To use this application you must have 
-MySql server, example Wamp Server (download http://www.wampserver.com/en/). Upload sql script hotel.sql on sql server.
+Hotel App is a C# application development with WPF (Windows Presentation Fondation) controls. Offers user (e.g. receptionist) to reserve rooms for visitors, display all reserve rooms, single, double or apartmas. Application work with MySQL database. 
